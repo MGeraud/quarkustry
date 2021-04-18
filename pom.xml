@@ -67,6 +67,14 @@
             <artifactId>quarkus-jdbc-postgresql</artifactId>
             <version>1.13.0.Final</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-smallrye-openapi -->
+<!--        // integre swagger, permet d'aller sur localhost:8080/swagger-ui pour test les endpoints -->
+
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-smallrye-openapi</artifactId>
+            <version>1.13.2.Final</version>
+        </dependency>
 
     </dependencies>
     <build>
